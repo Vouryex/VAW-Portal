@@ -1,0 +1,172 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #c8d7e3;
+}
+
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+.orange{
+	color: #e15119;
+}
+
+/* Video */
+#video{
+	background-color: #e15119;
+	color: #ecfffb;
+	min-height: 400px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#video #welcome{
+	width: 30%;
+	float: left;
+}
+
+#video #welcome h1{
+	line-height: 100%;
+	margin: 0;
+	font-size: 70px;
+}
+
+#video .highlight{
+	color: #000000;
+}
+
+#video hr{
+	margin-right: 40px;
+}
+
+#video p{
+	padding-right: 40px;
+	text-align: justify;
+}
+
+#video video{
+	float: right;
+	height: 40%;
+	width: 70%;
+}
+
+/* Portal */
+#portal{
+	margin-top: 20px;
+}
+
+#portal .box{
+	text-align: center;
+	float: left;
+	width: 30%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 10px;
+}
+
+#portal .box img{
+	width: 100%;
+}
+
+#portal .leftmost{
+	margin-left: 0px;	
+	padding-left: 0px;
+}
+
+#portal .rightmost{
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+#portal .image {
+  position: relative;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .5s;
+  overflow: hidden;
+  height: 0;
+  background: rgba(255, 0, 0, 0);
+}
+
+#portal .image:hover .overlay,
+.overlay:hover {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+}
+
+#portal .image > image {
+  display: block;
+}
+
+#portal .link{
+	color: #ffffff;
+	border-bottom: #e15119 1px solid;
+	display: inline-block;
+	padding: 0;
+	width: 100%;
+}
+
+#portal .root{
+	border: none;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#portal .link h5{
+	font-size: 13px;
+	text-align: left;
+	margin: 0;
+	padding: 10px;
+}
+
+#portal .root h5{
+	font-size: 17px;
+	text-align: center;
+}
+
+#portal .link:hover{
+	background: #e15119;
+}
+
+#portal .root:hover{
+	color: #ffffff;
+}
+
+#portal .organization{
+	width: 100%;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+/* Footer */
+footer{
+	font-size: 22px;
+	background-color: #000000;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	color: #ffffff;
+	text-align: center;
+}
+
+footer h5{
+	display: inline;
+	padding: 0px 15px;
+
+}
