@@ -24,7 +24,7 @@ body{
 /* Video */
 #video{
 	background-color: #e15119;
-	color: #ecfffb;
+	color: #ffffff;
 	min-height: 400px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -52,6 +52,7 @@ body{
 #video p{
 	padding-right: 40px;
 	text-align: justify;
+	font-family: 'Roboto', sans-serif;
 }
 
 #video video{
@@ -62,7 +63,7 @@ body{
 
 /* Portal */
 #portal{
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 #portal .box{
@@ -71,11 +72,7 @@ body{
 	width: 30%;
 	padding-left: 2.5%;
 	padding-right: 2.5%;
-	padding-top: 10px;
-}
-
-#portal .box img{
-	width: 100%;
+	padding-top: 15px;
 }
 
 #portal .leftmost{
@@ -91,6 +88,10 @@ body{
 #portal .image {
   position: relative;
   cursor: pointer;
+}
+
+#portal .box img{
+	width: 100%;
 }
 
 .overlay {
@@ -151,7 +152,8 @@ body{
 #portal .organization{
 	width: 100%;
 	margin-top: 5px;
-	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* Footer */
@@ -163,6 +165,7 @@ footer{
 	margin-bottom: 0px;
 	color: #ffffff;
 	text-align: center;
+	font-family: Helvetica, sans-serif;
 }
 
 footer h5{
